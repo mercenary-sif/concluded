@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  /* Fonts */
+  --font-1: "Almarai", sans-serif;
+}
+body {
+  margin: 0;
+  font-family:var(--font-1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@keyframes swing {
+  0%   { transform: translateX(0)    rotate(0deg); }
+  25%  { transform: translateX(-24px) rotate(15deg); } /* move left & rotate clockwise */
+  50%  { transform: translateX(0)    rotate(0deg); }
+  75%  { transform: translateX(24px)  rotate(-15deg); } /* move right & rotate counter-clockwise */
+  100% { transform: translateX(0)    rotate(0deg); }
+}
+
+/* run the animation while parent .group is hovered */
+.group:hover .hover-anim {
+  animation: swing 4s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes icon-swing {
+  0%   { transform: translateX(0)    rotate(0deg); }
+  25%  { transform: translateX(-14px) rotate(25deg); } /* move left & rotate clockwise */
+  50%  { transform: translateX(0)    rotate(0deg); }
+  75%  { transform: translateX(24px)  rotate(-285deg); } /* move right & rotate counter-clockwise */
+  100% { transform: translateX(0)    rotate(0deg); }
+}
+
+/* run only while parent .group is hovered */
+.group:hover .hover-animation {
+  animation: icon-swing 4s ease-in-out infinite;
+  transform-origin: center;
+}

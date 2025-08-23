@@ -1,0 +1,5 @@
+export {default as NavBar} from './Navbar'
+export {default as Article} from './Article'
+export {default as Card} from './Card'
+export {default as Reason} from './Reason'
+export {default as Footer} from './Footer'
