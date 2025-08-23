@@ -6,7 +6,7 @@ const WhyConcluded = () => {
   return (
     <div className='flex flex-col justify-center items-center p-[2rem] gap-[4rem] '>
        <div className="group flex justify-center items-center px-[2rem] py-2 gap-[1rem] 
-       rounded-[1rem] outline-none border-r-[1rem] hover:bg-[#00001A] border-[2px]  hover:bg-transparent hover:cursor-pointer border-[#00001A] ">
+       rounded-[1rem] outline-none border-r-[1rem] hover:bg-[#00001A] border-[2px]   hover:cursor-pointer border-[#00001A] ">
            <img className={` w-[50px] h-[50px] object-fill group-hover:hidden`} src={icon_20} alt="section icon" />
             <img className={` w-[50px] h-[50px] object-fill hidden group-hover:block hover-anim`} src={icon_21} alt="section icon" />
               <h3 className="text-[#00001A] group-hover:text-white font-bold h-full text-[18px] sm:text-[22px] md:text-[28px]" > لماذا استدل؟ </h3>
