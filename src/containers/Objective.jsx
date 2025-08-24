@@ -3,7 +3,7 @@ import { icon_10, icon_11, icon_12, icon_13, icon_14, icon_15, icon_16, icon_17,
 
 const Objective = () => {
   return (
-    <div className='flex flex-col justify-center items-center p-[2rem] gap-[4rem] '>
+    <div className='flex flex-col justify-center items-center p-2 lg:p-[2rem] gap-[4rem] '>
        <div className="group flex justify-center items-center px-[3rem] py-[1rem] gap-[1rem] 
        rounded-full outline-none hover:border-[2px] bg-[#CCD4FF] hover:bg-transparent hover:cursor-pointer hover:border-[#00001A] ">
            <img className={` w-[50px] h-[50px] object-fill group-hover:hidden`} src={icon_10} alt="section icon" />
