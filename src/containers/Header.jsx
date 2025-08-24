@@ -25,7 +25,7 @@ const Header = () => {
                 <div className="flex flex-col w-full justify-center items-center gap-[1rem] md:gap-[2rem] py-[1rem] md:py-[2rem]">
                     <div className="w-full md:w-[80%] flex justify-center md:justify-start items-center gap-[1rem] ">
                          <img className='w-[35px] h-[35px] object-fill' src={icon_2} alt="title-icon" />
-                        <h1 className="text-font-1 text-[#00001A] font-extrabold text-center h-full text-[20px] md:text-[32px]">
+                        <h1 className="text-font-1 text-[#000000] font-extrabold text-center h-full text-[20px] md:text-[32px]">
                             استدل على عقارك المثالي بسهولة!
                         </h1>
                     </div>
