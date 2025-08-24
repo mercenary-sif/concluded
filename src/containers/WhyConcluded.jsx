@@ -12,7 +12,7 @@ const WhyConcluded = () => {
               <h3 className="text-[#00001A] group-hover:text-white font-bold h-full text-[18px] sm:text-[22px] md:text-[28px]" > لماذا استدل؟ </h3>
        </div>
        <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-4 md:gap-[2rem] p-2 md:p-[2rem] ">
-            <div className="flex flex-[0.75] flex-col justify-start items-start gap-[1rem] p-[2rem] ">
+            <div className="flex flex-[0.75] flex-col justify-start items-start gap-[1rem] p-2 lg:p-[2rem] ">
                  <Reason 
                    icon={icon_22}
                    reason={'لأننا نملك فهمًا عميقًا للتسويق العـقـاري ومـتطـلباتـه المـتـغيـرة'}
